@@ -1,4 +1,4 @@
-#Pheanstalk Service Provider for Silex 
+#ElephantIO Service Provider for Silex 
 
 This is a service provider for the Silex PHP Microframework, it provides access to socket.io via ElephantIO.
 
