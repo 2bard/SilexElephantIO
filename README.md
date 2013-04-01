@@ -23,7 +23,7 @@ This is a service provider for the Silex PHP Microframework, it provides access 
 
 	<?php
 	
-	$app->register(new LewisB\PheanstalkServiceProvider\ElephantIOServiceProvider(), array(
+	$app->register(new LewisB\ElephantIOServiceProvider\ElephantIOServiceProvider(), array(
 	    'elephant.address' => 'http://localhost:4568'
 	));
 
