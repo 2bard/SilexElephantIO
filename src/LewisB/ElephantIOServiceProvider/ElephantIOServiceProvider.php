@@ -12,7 +12,7 @@ class ElephantIOServiceProvider implements ServiceProviderInterface
     {
         $app['elephant'] = $app->share(function ($app) {    
 		   $address = isset($app['elephant.address']) ? $app['elephant.address'] : $this->defaultAddress;
-           $client = new ElephantIO\Client($address, 'socket.io', 1, false, true, true);
+           $client = new \ElephantIO\Client($address, 'socket.io', 1, false, true, true);
            return $client;
         });
         
